@@ -1,0 +1,135 @@
+/* Configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFDF7;
+    color: #252525;
+}
+
+
+/* Cabeçalho */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+    background-color: #FFFFFF;
+}
+
+header img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #252525;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D9A91B;
+}
+
+
+/* Apresentação */
+
+#inicio {
+    min-height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 40px 20px;
+
+    background-color: #EDE9E0;
+}
+
+#inicio h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#inicio a {
+    background-color: #D9A91B;
+    color: #252525;
+
+    padding: 14px 25px;
+    border-radius: 6px;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Seções */
+
+section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+
+/* Categorias */
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.categorias article {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+
+    width: 250px;
+
+    border: 1px solid #EDE9E0;
+}
+
+.categorias h3 {
+    margin-bottom: 15px;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #252525;
+    color: #FFFFFF;
+
+    text-align: center;
+    padding: 25px;
+}
